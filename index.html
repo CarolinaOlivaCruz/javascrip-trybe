@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Conceitos JS</h1>
-    <p>Declarar uma variável é o mesmo que dizer “criar uma variável”. 
+    <p>=>Declarar uma variável é o mesmo que dizer “criar uma variável”. 
        Em programação, declarar significa dizer ao computador para reservar um espaço
        na memória para armazenar um dado.</p>
      <p>let roupa = 'camiseta';</p>
@@ -25,6 +25,75 @@
             <li>Por fim, o ponto e vírgula ; completa a estrutura. Esse sinal gráfico indica, na linguagem JavaScript,
                 que você terminou de escrever aquela linha.</li>
         </ul>
- 
-</body>
+     <p>=>As variáveis guardam somente um único valor e, toda vez que a variável receber um novo valor, o antigo é substituído.</p>
+     <h4>Atenção, existem algumas regras gerais para nomear variáveis ⚠️:</h4>
+    <ul>
+         <li> Não pode haver espaço entre as palavras;</li>
+         <li>Não é possível começar o nome de uma variável com um número, mas é possível usar números em outras posições.
+             Por exemplo: 1comida não vai funcionar, mas comida1 funciona.</li>  
+         <li>Nomes de variáveis são sensíveis a letras maiúsculas e minúsculas. Ou seja, Comida é diferente de COMIDA que é diferente de comida.</li>
+    </ul>
+    <p>Além dessas regras, existe uma convenção padrão para criação de nomes de variáveis em JavaScript chamada camelCase:</p>
+    <ul>
+        <li>As palavras são agrupadas em uma;</li>
+        <li>O nome da variável começa com letra minúscula;</li>
+        <li>Cada palavra nova começa com uma letra maiúscula, como acontece no próprio camelCase. Por exemplo: carroVermelho.</li>  
+        <li>Valores que são textos, frases ou palavras devem ser sempre envolvidas por aspas. Você pode utilizar tanto aspas simples 
+        ' quanto aspas duplas ". Porém, aspas simples são mais utilizadas.</li>
+    </ul>
+    <h4>Diferenças entre as palavras-chave var, let e const</h4>
+    <p>var = Uma vez que você declarou uma variável com o var você também pode atribuir um novo valor a ela quando precisar</p>
+    <p>A const tem uma diferença: uma característica dessa palavra-chave é que ela é uma constante. Isto significa que, uma vez 
+    que essa variável é declarada, o valor dela não poderá ser alterado.</p>
+    <p>=>Com a palavra-chave let você poderá reatribuir valores à sua variável quantas vezes quiser. Com a palavra-chave const
+     você só poderá atribuir o valor uma única vez.</p>
+    
+     <h4>Tipos Primitivos no JavaScript</h4>
+     <p>Ao utilizar computação para resolver problemas, é necessário representar informações da vida real, como números e textos. 
+        É para isso que os tipos primitivos servem, para que você consiga representar algo do mundo real em formato de código.</p>
+     
+     <p>Em JavaScript, os tipos primitivos que você mais irá encontrar são os seguintes:</p>
+     
+     <ul>
+         <li>string: sequências de caracteres, como palavras, textos, senhas, etc.;</li>
+         <li>number: números, podendo ser positivos ou negativos, inteiros ou decimais;</li>
+         <li>boolean: pode ser representado apenas pelos valores verdadeiro (true) ou falso (false).</li>
+     </ul>
+
+         <p>Exemplo:
+            <br>
+            let tipoTexto = 'amiga' <br>
+
+            let tipoNumero = 123 <br>
+
+            let verdadeiro = true <br>
+
+            let falso = false <br>
+
+            let tipoNulo = null <br>
+
+            let tipoIndefinido
+         </p>
+
+     <h4>Operadores js</h4>
+     <h5>Operadores Aritméticos</h5>
+         <ul>
+             <li>soma +</li>
+             <li>subtração -</li>
+             <li>multiplicação *</li>
+             <li>divisão /</li>
+             <li>exponenciação **</li>
+             <li>resto %</li> <!--A operação de módulo encontra o resto da divisão de um número por outro.-->
+         </ul>
+
+     <h5>Operadore de Comparação</h5>
+     <ul>
+        <li>=== para comparar estritamente a igualdade entre dois valores;</li>
+        <li>!== para comparar estritamente a diferença entre dois valores;</li>
+        <li>> para comparar se um valor é maior do que o outro;</li>
+        <li>< para comparar se um valor é menor do que o outro; </li>
+        <li>>= para comparar se um valor é maior ou igual do que o outro;</li>
+        <li><= para comparar se um valor é menor ou igual do que o outro.</li>
+         
+    </body>
 </html>
