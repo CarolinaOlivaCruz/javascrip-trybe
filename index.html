@@ -123,5 +123,38 @@
         Escopo? O que é isso? 🤔
         
         Um escopo é um bloco de código.</p>
+    <pre>
+        <h2>Entendendo condicional</h2>
+<p>
+let idadeJulia = 10;
+let idadeErick = 10;
+let verificaIdadePessoas; // Quando uma variável é deixada fora da function,
+ela pode ser usada em mais de uma function. Porém para maior segurança, é melhor que ela seja usada 
+dentro da function.
+
+//Primeira function
+
+function verificaIdade(idadeJulia, idadeErick) { 
+  
+if (idadeJulia > idadeErick){
+    verificaIdadePessoas = 'Julia é mais velha que Erick';
+} else if (idadeErick > idadeJulia){ 
+    verificaIdadePessoas = 'Erick é mais velho que Julia';
+} else {
+    verificaIdadePessoas = 'Possuem a mesma idade';
 }
+  return verificaIdadePessoas
+}
+console.log   (verificaIdade (10,10))
+
+// Segunda Function
+
+function resultado(){
+  return verificaIdadePessoas + " - OK"; 
+ 
+}
+ console.log   (resultado())
+        </p>
+    </pre>
+
 </html>
