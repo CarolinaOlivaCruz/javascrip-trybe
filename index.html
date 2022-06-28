@@ -156,7 +156,7 @@ function resultado(){
  console.log   (resultado())
         </p>
     </pre>
-    
+
     <h2>Pensamento computacional</h2>
 <p>Pronto! Você resolveu o problema usando a estratégia do Pensamento Computacional:
 
@@ -173,6 +173,48 @@ function resultado(){
             <li>Acessar um ou mais itens no array através do índice;</li>
             <li>Adicionar ou modificar um item ao acessá-lo pelo índice.</li>
          </ul>
+<p>Acessando um valor da lista pelo seu índice
+    Você já pensou em como descobrir um item específico de um array? Para isso, podemos encontrar a posição 
+    que esse item ocupa no array. Por exemplo: meuArray[posiçãoQueEuQuero].
+    
+    A posição de um item no array é chamada de índice ou, em inglês, index.
+    
+    Anota aí 📣 : O índice inicia a partir do 0 e, para acessar a posição de um item no array, usamos a 
+    estrutura meuArray[indiceQueEuQuero].</p>
 
+    <p>Pense no seguinte cenário: você precisa ir ao mercado e fez uma lista de compras com JavaScript, utilizando um array para armazenar os itens da lista:
 
+        Copiar
+        const listaDeCompras = ['arroz', 'feijão', 'ovo'];
+        Porém, esqueceu de adicionar o item 'farofa' e não pode adicioná-lo diretamente no seu array.
+         O que fazer agora?
+        
+        Para isso, você tem duas opções:
+        
+        Usar o próximo índice disponível;
+        Utilizar a função .push(), um método próprio para adicionar um item no array.</p>
+        <p>Anota aí 📣 : A vantagem do .push() é que você não precisa saber o próximo índice disponível para
+         adicionar um valor a um array, pois essa função já adiciona ao final da lista o valor passado entre
+          os parênteses.</p>
+
+          <h3>For</h3>
+          <p>Anota aí 📣 :</p>
+          <ul>
+            <li>
+                expressão inicial: início do loop. Aqui, normalmente, declaramos uma variável, que será
+                 o valor inicial a ser usado;
+            </li>
+            <li>condição a ser cumprida: critério que vai parar o loop, caso a condição seja atendida;</li>
+            <li>
+                atualização da expressão inicial: alteração da variável utilizada na primeira expressão,
+                 o que acontece a cada loop,
+                até a condição ser atendida.
+            </li>
+        </ul>
+        <p>Para nos referirmos a laços de repetição (loops), podemos utilizar a palavra ‘iteração’, 
+            que significa ‘repetição’.</p>
+         <p>Dica: Se você declarar a variável utilizando const, ela não poderá ser alterada e o seu for 
+        não vai funcionar da forma esperada.</p>
+        <p>Boa prática: Você pode nomear essa variável do jeito que preferir, porém é uma boa prática chamá-la de index (índice),
+     já que a iteração acontece pelo index do array.</p>
 </html>
